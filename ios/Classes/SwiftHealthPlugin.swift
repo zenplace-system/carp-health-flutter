@@ -544,8 +544,10 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
         dataTypesDict[HealthConstants.WATER_TEMPERATURE] = HKQuantityType.quantityType(forIdentifier: .waterTemperature)!
         dataTypesDict[HealthConstants.UNDERWATER_DEPTH] = HKQuantityType.quantityType(forIdentifier: .underwaterDepth)!
         dataTypesDict[HealthConstants.UV_INDEX] = HKSampleType.quantityType(forIdentifier: .uvExposure)!
+        dataTypesDict[HealthConstants.WALKING_STEP_LENGTH] = HKQuantityType.quantityType(forIdentifier: .walkingStepLength)!
         
         dataQuantityTypesDict[HealthConstants.UV_INDEX] = HKQuantityType.quantityType(forIdentifier: .uvExposure)!
+        dataQuantityTypesDict[HealthConstants.WALKING_STEP_LENGTH] = HKQuantityType.quantityType(forIdentifier: .walkingStepLength)!
     }
     
     /// Initialize workout activity types
